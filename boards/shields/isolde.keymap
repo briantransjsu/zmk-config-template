@@ -47,8 +47,8 @@ bindings = <
         &kp MPRV  &none &none &none &none &none &kp PG_UP &kp RSHFT
 
         /* Row 4 – System */
-        &none     &kp LCTRL &kp LGUI &none &none &kp LALT &kp TAB &none
-        &kp SPACE &trans   &none &none &none &kp LEFT &kp DOWN &kp RIGHT
+        &none     &kp LCTRL &kp LGUI &none &none &kp LALT &kp TAB &bt BT_CLR
+        &kp SPACE &trans   &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp RIGHT
 >;
                 };
 
@@ -69,4 +69,5 @@ bindings = <
                 };
         };
 };
+
 
