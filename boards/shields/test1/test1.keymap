@@ -49,6 +49,7 @@
         /* Row 4 – System */
         &trans     &kp LCTRL &kp LGUI &trans &trans &kp LALT &kp TAB &bt BT_CLR
         &kp SPACE &trans   &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp RIGHT
+                        >;
                 };
 
                 raise_layer {
