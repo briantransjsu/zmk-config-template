@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-/{
+{
     chosen {
         zmk, kscan = &defualt_kscan;
         zmk, matrix_transform = &default_transform;
@@ -39,4 +39,4 @@
 
 };
 
-}
+
