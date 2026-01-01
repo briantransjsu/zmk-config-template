@@ -1,22 +1,12 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #inlcude "test1_dtsi"
 
-/{
-    chosen {
-        zmk, kscan = &defualt_kscan;
-        zmk, matrix_transform = &default_transform;
-    };
 
     &default_transform {
       col-offset = <8>;
     };
 
-    defualt_kscan: kscan {
-        compatible = "zmk,kscan-gpio-matrix";
-        label = "default_kscan";
-        diode-direction = "col2row";
-        wakeup-source;
-
+    &kscan0 {
         row-gpios
             = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -35,9 +25,3 @@
             , <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
-    };
-
-
-};
-
-}
