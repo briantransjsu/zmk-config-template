@@ -13,6 +13,6 @@ if SHIELD_ISOLDE
 
 config ZMK_SPLIT
     default y
-
+endif
 
 
