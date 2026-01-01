@@ -1,7 +1,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #inlcude "test1_dtsi"
 
-    
+    &default_transform {
+};
     &kscan0 {
         row-gpios
             = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
