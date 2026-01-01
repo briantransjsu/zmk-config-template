@@ -1,0 +1,13 @@
+# Copyright (c) 2020 Pete Johanson
+# SPDX-License-Identifier: MIT
+
+config SHIELD_ISOLDE
+    bool
+
+config SHIELD_ISODLE_LEFT
+    def_bool $(shields_list_contains,isolde_left)
+    select SHIELD_ISOLDE
+
+config SHIELD_ISOLDE_RIGHT
+    def_bool $(shields_list_contains,isolde_right)
+    select SHIELD_ISOLDE
