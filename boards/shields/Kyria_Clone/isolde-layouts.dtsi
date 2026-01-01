@@ -74,10 +74,6 @@
             , <&key_physical_attrs 100 100 1600  400       0     0     0>
             ;
     };
-};
-
-
- 
 
     splitkb_kyria_position_map {
         compatible = "zmk,physical-layout-position-map";
@@ -94,5 +90,5 @@
                 , <   57 58          59 60    61 62          63 64 65>
                 ;
         };
-
-
+    };
+};
