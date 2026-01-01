@@ -1,16 +1,12 @@
 file_format: "1"
-id: kyria
-name: Kyria
+id: Isolde
+name: Isolde
 type: shield
-url: https://splitkb.com/products/kyria-pcb-kit
+url: 
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
-  - display
-  - encoder
-  - underglow
-  - studio
 siblings:
-  - kyria_left
-  - kyria_right
+  - isolde_left
+  - isolde_right
