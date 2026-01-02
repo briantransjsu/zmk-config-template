@@ -18,8 +18,9 @@
 #
 ---
 include:
-  - board: nrfmicro_13
+  - board: nrfmicro_11
     shield: isolde_left
   - board: nrfmicro_11
     shield: isolde_right
+
 
