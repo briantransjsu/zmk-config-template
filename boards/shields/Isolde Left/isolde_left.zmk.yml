@@ -1,0 +1,9 @@
+file_format: "1"
+id: isolde_left
+name: isolde_left
+type: shield
+url: 
+requires: 
+features:
+  - keys
+  - studio
